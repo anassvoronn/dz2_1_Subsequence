@@ -21,10 +21,17 @@ public class SubsequenceTest {
     }
 
     @Test
-    public void getNumberByFormulaOf21() {
+    public void getNumberByFormulaOf19() {
         Subsequence calculator = new Subsequence();
-        int result = calculator.getNumberByFormula(21);
-        Assert.assertEquals(4, result);
+        int result = calculator.getNumberByFormula(19);
+        Assert.assertEquals(6254320, result);
+    }
+
+    @Test
+    public void getNumberByFormulaOf10() {
+        Subsequence calculator = new Subsequence();
+        int result = calculator.getNumberByFormula(10);
+        Assert.assertEquals(5064, result);
     }
 
 }
